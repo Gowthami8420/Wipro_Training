@@ -1,0 +1,5 @@
+package com.example.movie_ticket_booking_system.repository;
+
+public interface TheaterRepository {
+
+}

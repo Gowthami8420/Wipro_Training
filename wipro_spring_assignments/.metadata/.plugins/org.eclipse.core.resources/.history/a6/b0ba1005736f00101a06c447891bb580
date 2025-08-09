@@ -1,0 +1,5 @@
+package com.example.spring_boot_portfolio_assignment.controller;
+
+public class AppController {
+
+}

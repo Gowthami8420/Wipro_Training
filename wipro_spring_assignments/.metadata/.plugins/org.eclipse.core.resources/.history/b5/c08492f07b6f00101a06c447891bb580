@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2 style="text-align: center; margin-top: 30px;">Education</h2>
+<div style="max-width: 800px; margin: 30px auto; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); padding: 30px; background-color: white;">
+  <ul>
+    <li><strong>Bachelor of Computer Science</strong> CECC, 2020–2024</li>
+    <li><strong>Inter</strong> - NRI College, 2018–2020</li>
+    <li><strong>SSC</strong> - Holy Cross School, 2017–2018</li>
+  </ul>
+</div>
+
+
+</body>
+</html>

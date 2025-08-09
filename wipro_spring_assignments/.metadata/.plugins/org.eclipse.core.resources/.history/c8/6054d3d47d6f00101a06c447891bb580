@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f4f8;
+      color: #333;
+    }
+
+    /* Navigation */
+    nav {
+      text-align: center;
+      background-color: #89ABE3;
+      padding: 15px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 25px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e6e6e6;
+      text-decoration: underline;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      color: #2C3E50;
+      font-size: 32px;
+    }
+
+    .contact-box {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: white;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+      padding: 40px;
+      border-radius: 12px;
+    }
+
+    form label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+      color: #2C3E50;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #89ABE3;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #678FD0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="about.html">ABOUT</a>
+    <a href="education.html">EDUCATION</a>
+    <a href="skills.html">SKILLS</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <!-- Contact Form Section -->
+  <h2>Contact</h2>
+  <div class="contact-box">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Gowthami" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="gowthami@example.com" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>

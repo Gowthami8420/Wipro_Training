@@ -1,0 +1,17 @@
+package com.example.ecommerce_app.model;
+
+import java.util.List;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Order {
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	 private Long orderId;
+	 private List<CartItem> items;
+	 private double totalPrice;
+}

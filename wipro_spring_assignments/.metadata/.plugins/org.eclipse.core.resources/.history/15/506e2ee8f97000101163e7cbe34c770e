@@ -1,0 +1,6 @@
+package com.example.simple_ecommerce_application.model;
+
+public class CartItem {
+	private Product product;
+	private int quantity;
+}

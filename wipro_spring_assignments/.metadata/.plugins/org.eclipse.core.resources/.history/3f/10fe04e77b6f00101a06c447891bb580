@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+This is about me page
+<h2 style="text-align: center; margin-top: 30px;">About Me</h2>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <div style="box-shadow: 0px 0px 10px rgba(0,0,0,0.2); padding: 30px; max-width: 1000px; display: flex; gap: 40px; background-color: white;">
+    
+    <!-- About Me Section -->
+    <div style="flex: 1;">
+      <h3>About Me</h3>
+      <p>
+        From a young age, I’ve always had a sense of motivation and passion driving me forward. Whether it’s exploring unique opportunities, learning additional skills, or meeting new people, I bring these values to every experience throughout my life on a personal and professional level.
+      </p>
+      <p>
+        Lover of innovation and everything related to generating new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.
+      </p>
+      <p>
+        To learn more about me, keep exploring my site or reach out directly.
+      </p>
+    </div>
+
+    <!-- Basic Information -->
+    <div style="flex: 1;">
+      <h2>Basic Information</h2>
+            <p><strong>Name</strong><br>Gowthami</p>
+      
+      <p><strong>E-mail:</strong><br>gowthami@gmail.com</p>
+      <p><strong>Mobile No:</strong><br>9502209778</p>
+      <p><strong>Address:</strong><br>AP</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

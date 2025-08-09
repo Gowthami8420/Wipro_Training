@@ -1,8 +1,0 @@
-package com.example.spring_boot_portfolio_assignment.controller;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class AppController {
-
-}

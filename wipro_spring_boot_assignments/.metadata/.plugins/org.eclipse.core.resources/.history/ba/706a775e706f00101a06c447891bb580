@@ -1,0 +1,16 @@
+package com.example.first_spring_boot_application.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class AppController {
+	@GetMapping("/")
+    public String showHomePage() {
+        return "home"; // This will map to /WEB-INF/home.jsp
+    }
+    @GetMapping("/test")
+    public String testPage() {
+        return "test"; // Resolves to /WEB-INF/test.jsp
+    }
+}

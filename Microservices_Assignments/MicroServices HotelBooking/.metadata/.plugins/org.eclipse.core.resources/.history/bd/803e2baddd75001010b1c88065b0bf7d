@@ -1,7 +1,0 @@
-package com.example.booking_service.feign;
-
-@FeignClient(name="product-service", url="http://localhost:1111")
-public interface ProductClient {
-	@GetMapping("/api/products/{id}")
-	ProductDTO getProductById(@PathVariable Long id );
-}
